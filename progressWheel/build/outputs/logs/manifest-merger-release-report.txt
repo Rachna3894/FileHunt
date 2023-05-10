@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:4:5-52
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+application
+ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:8:5-20:19
+	android:icon
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:10:9-45
+	android:theme
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:11:9-45
+	tools:replace
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:9:9-38
+activity#com.todddavies.components.progressbar.main
+ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:12:9-19:20
+	android:exported
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:12:19-76
+uses-sdk
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		ADDED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+		INJECTED from F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml

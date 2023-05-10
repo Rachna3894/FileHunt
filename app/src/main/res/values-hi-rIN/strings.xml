@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="free_mem">Free Memory</string>
+    <string name="usb_message">Enabling USB debugging is not recommended unless you use your device for software development purposes. Tap Open Settings and disable USB debugging to protect your device</string>
+</resources>

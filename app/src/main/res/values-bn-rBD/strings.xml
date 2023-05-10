@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">FileHunt</string>
+    <string name="app_version">অ্যাপ সংস্করণ</string>
+
+    <string name="internalstorage">অভ্যন্তরীণ সংরক্ষণ ব্যবস্থা</string>
+    <string name="externalstorage">বাহ্যিক সংগ্রহস্থল</string>
+    <string name="avlbl">সহজলভ্য</string>
+
+    <string name="subscibe">সাবস্ক্রাইব</string>
+    <string name="limit_reminder">আপনি ফাইলগুলি লুকানোর সীমাতে পৌঁছে গেছেন furtherআর আরও ব্যবহারের জন্য সাবস্ক্রাইব করুন।</string>
+
+
+    <!--taken from filemangaer app-->
+
+    <!-- navigation strings-->
+    <string name="nav_settings">সেটিংস</string>
+    <string name="nav_share">ভাগ</string>
+    <string name="nav_privacy_policy">গোপনীয়তা নীতি</string>
+
+
+    <string name="navigation_drawer_open">ন্যাভিগেশন ড্রয়ার খুলুন</string>
+    <string name="navigation_drawer_close">ন্যাভিগেশন ড্রয়ার বন্ধ করুন</string>
+    <string name="nav_header_title">FileHunt</string>
+    <string name="nav_header_subtitle">jmm@android.com</string>
+    <string name="nav_header_desc">ন্যাভিগেশন হেডার</string>
+    <string name="cannotload">
+সাইট লোড করতে পারে না</string>
+    <string name="actions_rename">পুনঃনামকরণ</string>
+
+    <string name="menu_item_delete">মুছে ফেলা</string>
+    <string name="menu_item_move">পদক্ষেপ</string>
+    <string name="action_search">
+অনুসন্ধান</string>
+    <string name="action_sort">সাজান</string>
+    <string name="action_hide">লুকান
+</string>
+
+    <string name="delete_file_msgs">নথিপত্র মুছে দাও</string>
+    <string name="action_details">বিস্তারিত
+</string>
+    <string name="action_copy">
+কপি</string>
+    <string name="action_share">ভাগ</string>
+    <!--taken from filemangaer app-->
+
+
+
+    <string name="loading_msg">বোঝাই...</string>
+    <string name="msg_set_wall">ওয়ালপেপার সেটিং</string>
+    <string name="copying_msg">নকল...</string>
+    <string name="foldercreatedmsg">ফোল্ডার সফলভাবে তৈরি</string>
+
+    <string name="menu_selectAll">সব নির্বাচন করুন</string>
+    <string name="menu_unselectAll">সরিয়ে ফেলুন সব</string>
+    <string name="menu_paste">
+প্রতিলেপন</string>
+
+    <string name="cat_Images">ভাবমূর্তি</string>
+    <string name="cat_Videos">ভিডিও</string>
+    <string name="cat_Audio">অডিও</string>
+    <string name="cat_Documents">দলিল</string>
+    <string name="cat_Download">ডাউনলোড</string>
+    <string name="cat_Animation">
+অ্যানিমেশন</string>
+    <string name="cat_Recent">সাম্প্রতিক</string>
+    <string name="cat_Apk">অ্যাপস</string>
+    <string name="cat_zip_title">ফ্যাস্ শব্দ</string>
+    <string name="cat_hidden">দেরাজ</string>
+
+    <string name="hdnfiles">
+লুকানো ফাইল</string>
+
+    <string name="copy_here">এখানে কপি করুন</string>
+
+
+    <string name="title_settings">
+সেটিংস</string>
+    <string name="password_hint">পাসওয়ার্ড লিখুন</string>
+    <string name="cpassword_hint">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="createfolder">সৃষ্টি</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="create_folder">
+ফোল্ডার তৈরি করুন</string>
+    <string name="encrypt_heading">
+লক ফাইল</string>
+    <string name="password">পাসওয়ার্ড লিখুন</string>
+    <string name="setpassword">পাসওয়ার্ড সেট করুন</string>
+
+    <string name="file_exists">ফাইল ইতিমধ্যে বিদ্যমান। নতুন নাম চেষ্টা করুন</string>
+
+    <string name="filenotfound">
+কান্ড ফাইল লুকাতে না</string>
+    <string name="directorynotfound">
+ডিরেক্টরি খুঁজে পাওয়া যায়নি</string>
+    <string name="decmsg">ফাইল প্রস্তুত করা হচ্ছে...</string>
+    <string name="encmsg">ফাইল লুকানো...</string>
+    <string name="unlocktxt">আনলক করুন</string>
+    <string name="rename_success">ফাইল সফলভাবে নামকরণ</string>
+    <string name="rename_failed">পুনঃনামকরণ ব্যর্থ হয়েছে</string>
+    <string name="emty_error">খালি হতে পারেনা</string>
+    <string name="foldernamerequire">
+ফোল্ডার নাম প্রয়োজন</string>
+    <string name="namerequired">নাম প্রয়োজন</string>
+    <string name="error">এরর</string>
+
+    <string name="delfile">ফাইল</string>
+
+
+    <string name="delfiles">নথি পত্র</string>
+    <string name="delmsg1">
+আইটেম মুছে ফেলা হয়েছে</string>
+    <string name="delmsg2">আইটেম মুছে ফেলা হয়েছে</string>
+
+    <string name="needsaccesssummary">
+মূল ডিরেক্টরি নির্বাচন করুন \t</string>
+    <string name="needsaccesssummary1">\t কাজ অ্যাক্সেস অ্যাক্সেস প্রদান করতে </string>
+    <string name="permission_txt">
+পড়ুন / লিখুন অনুমতি প্রয়োজন</string>
+    <string name="open">খোলা</string>
+    <string name="deleting_file">ফাইল মুছে ফেলা হচ্ছে </string>
+    <string name="bigimg">
+ইমেজ আকার খুব বড়</string>
+    <string name="nospace">
+কোন স্থান উপলব্ধ.</string>
+    <string name="load_error">ফাইল লোড করা যাবে না</string>
+    <string name="play_error">ফাইল লোড করা যাবে না</string>
+
+    <string name="passwordnotmatch">পাসওয়ার্ড মেলে না</string>
+    <string name="Incrct_pswd">
+ভুল পাসওয়ার্ড৤</string>
+    <string name="type_password">একটি গোপন নাম্বার লিখ</string>
+    <string name="nofile">শেয়ার করার জন্য কোন ফাইল নেই</string>
+    <string name="filenotcreated">ফাইল তৈরি করা হয় না</string>
+    <string name="password_create_error">পাসওয়ার্ড তৈরি করতে পারবেন না</string>
+    <string name="pressagain">
+প্রস্থান করার জন্য আবার চাপুন।</string>
+    <string name="folder_exist">োল্ডার ইতিমধ্যে বিদ্যমান</string>
+    <string name="filedetetd">ফাইল মুছে ফেলা হয়েছে</string>
+    <string name="app_not_found">আবেদন পাওয়া যায় না</string>
+    <string name="unable_get_permission">অনুমতি পেতে অক্ষম</string>
+    <string name="permission_required">
+অনুমতি প্রয়োজন</string>
+    <string name="storage_permission">অ্যাপ্লিকেশন স্টোরেজ অনুমতি প্রয়োজন.</string>
+    <string name="grant_storage">স্টোরেজ অ্যাক্সেস অনুদান অনুমতি যান</string>
+
+    <string name="sortName">নাম</string>
+    <string name="lastModified">
+সর্বশেষ সংশোধিত (তারিখ)</string>
+    <string name="sortSize">
+আয়তন</string>
+    <string name="type">টাইপ দ্বারা গ্রুপ</string>
+
+    <string name="sortby">ক্রমানুসার</string>
+    <string name="ascending">ঊর্ধ্বগামী</string>
+    <string name="descending">নিম্নক্রম</string>
+    <string name="done">সম্পন্ন</string>
+
+    <string name="total">মোট</string>
+    <string name="last_modified">
+সর্বশেষ পরিবর্তিত :</string>
+    <string name="strgdevice">জমাকৃত যন্ত্রসমুহ</string>
+
+    <string name="showfiles">
+গোপন ফাইলগুলো দেখুন</string>
+    <string name="txtsize">
+অক্ষরের আকার</string>
+    <string name="txtsuggestedApps">প্রস্তাবিত অ্যাপ্লিকেশন</string>
+    <string name="txtAbout">সম্পর্কিত</string>
+    <string name="dispsmallfile">30 কেবি কম কম চিত্র প্রদর্শন করুন</string>
+    <string name="hidestorage">ডিভাইস স্টোরেজ লুকান</string>
+    <string name="error_folder_create">ফোল্ডার তৈরি করার সময় ত্রুটি</string>
+    <string name="wallpaper_success">ওয়ালপেপার সফলভাবে সেট.</string>
+    <string name="wallpaper_error">ওয়ালপেপার সেট করা যায়নি.</string>
+    <string name="set_wallpaper">ওয়ালপেপার সেট করুন</string>
+
+    <string name="num_files">ফাইল সংখ্যা</string>
+    <string name="ttl_size">
+মোট আকার</string>
+    <string name="cls">বন্ধ</string>
+
+    <string name="dtls">িস্তারিত</string>
+    <string name="fname">নাম</string>
+    <string name="lcn">অবস্থান</string>
+    <string name="sz">আয়তন</string>
+    <string name="orntn">ঝোঁক</string>
+    <string name="rsltn">সমাধান</string>
+    <string name="dt">তারিখ</string>
+
+    <string name="grant">গ্রান্ট</string>
+    <string name="need_permission">অনুমতি প্রয়োজন</string>
+    <string name="storage_needed">আপনার স্টোরেজ অ্যাক্সেস প্রয়োজন।</string>
+
+
+
+
+    <!--  junk clean string-->
+    <!--will  translate these string after lunch-->
+    <string name="ok">সম্পন্ন</string>
+    <string name="calculation" >গণক...</string>
+    <string name="cleanup" >ঝাড়া</string>
+    <string name="found_together" >একসঙ্গে পাওয়া : </string>
+    <string name="scanning" >
+স্ক্যান করা হচ্ছে :</string>
+    <string name="cleardata" >উপাত্ত মুছে ফেল</string>
+    <string name="process_clean" >প্রক্রিয়া পরিষ্কার</string>
+    <string name="apk_clean" >অপ্রয়োজনীয় ইনস্টলেশন প্যাকেজ</string>
+    <string name="tmp_clean" >অস্থায়ী ফাইল</string>
+    <string name="log_clean" >লগ ফাইল</string>
+    <string name="cache_clean" >ক্যাশে আবর্জনা</string>
+    <string name="system_cache" >সিস্টেম ক্যাশে</string>
+    <string name="title_activity_junk_clean" >
+প্রস্তাবিত পরিস্কার করা</string>
+
+
+
+
+
+    <string name="do_junk_clean" >পরিষ্কার কর</string>
+    <string name="boost_phone" >ফোন বুস্ট করুন</string>
+    <string name="duplicate_images" >ডুপ্লিকেট ইমেজ</string>
+    <string name="boosting" >আপনার ডিভাইস বুস্ট করুন</string>
+    <string name="avlbl_ram" >উপলব্ধ রাম</string>
+    <string name="boost_device" >ডিভাইস বুস্ট করুন</string>
+
+
+    <!--  junk clean string-->
+
+
+    <string name="need_perm" >অনুমতি প্রয়োজন</string>
+    <string name="custom_ui">কাস্টম UI দ্বারা নির্দিষ্ট স্ট্যান্ডার্ড অনুমতি অক্ষম করে</string>
+    <string name="need_enable">আপনি তাদের জন্য সক্রিয় করতে হবে</string>
+    <string name="towork">কাজ করতে.</string>
+
+
+
+
+    <!-- demo add ids -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~3576315291</string>
+<string name="banner_add_id">ca-app-pub-3940256099942544/6300978111</string>
+<string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+<string name="ad_unit_id_reward">ca-app-pub-3940256099942544/5224354917</string>
+-->
+    <!-- demo add ids -->
+
+
+    <!--actual add ids for lvvoMobile -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~7136674365</string>
+
+<string name="banner_add_id">ca-app-pub-5603925957932903/9547215284</string>
+<string name="ad_unit_id">ca-app-pub-5603925957932903/4809893925</string>
+
+<string name="ad_unit_id_reward">ca-app-pub-5603925957932903/5622774574</string>
+-->
+    <!--actualapp id -->
+
+
+    <!--actual add id for FileHunt blockedAccount -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~3576315291</string>
+<string name="banner_add_id">ca-app-pub-5603925957932903/8134685014</string>
+<string name="ad_unit_id">ca-app-pub-5603925957932903/9183865192</string>
+<string name="ad_unit_id_reward">ca-app-pub-5603925957932903/5622774574</string>
+-->
+    <!--actual add id for FileHunt blockedAccount -->
+
+
+    <!--actual add id for FileHunt runningAccount -->
+
+   <!-- <string name="admob_app_id">ca-app-pub-7769757158085259~2218192747</string>
+    <string name="banner_add_id">ca-app-pub-7769757158085259/4065874309</string>
+    <string name="ad_unit_id">ca-app-pub-7769757158085259/5753526349</string>
+    <string name="ad_unit_id_reward">ca-app-pub-7769757158085259/5906156319</string>-->
+
+    <!--actual add id for FileHunt runningAccount -->
+
+
+
+
+    <string name="txtUpdateQuestion">সুরক্ষা প্রশ্নগুলি আপডেট করুন</string>
+    <string name="answer_hint">আপনার উত্তর লিখুন</string>
+    <string name="title_activity_questions">প্রবেশ কর</string>
+    <string name="prompt_email">ইমেইল</string>
+    <string name="prompt_password">পাসওয়ার্ড</string>
+    <string name="action_sign_in">সাইন ইন বা নিবন্ধন করুন</string>
+    <string name="action_sign_in_short">প্রবেশ কর</string>
+
+    <string name="invalid_username">কোনও বৈধ ব্যবহারকারীর নাম নয়</string>
+    <string name="invalid_password">পাসওয়ার্ডটি অবশ্যই 5 টি অক্ষর হতে হবে</string>
+    <string name="login_failed">লগইন ব্যর্থ</string>
+
+
+
+    <string name="security_ques_title">নিরাপত্তা প্রশ্ন</string>
+    <string name="forgot_security_ques_title">নিরাপত্তা প্রশ্ন</string>
+    <string name="set_security_ques_title">সুরক্ষা প্রশ্নাবলী সেট করুন</string>
+    <string name="update_security_ques_title">উত্তরগুলি আপডেট করুন</string>
+
+    <string name="ques_save">সংরক্ষণ করুন</string>
+    <string name="forgot_pass">পাসওয়ার্ড ভুলে গেছেন ?</string>
+
+    <string name="security_ques_hint">আপনার উত্তর লিখুন</string>
+    <string name="set_security_ques_hint">আপনার উত্তর সেট করুন</string>
+    <string name="update_security_ques_hint">আপনার উত্তর আপডেট করুন</string>
+    <string name="forgot_security_ques_hint">আপনার উত্তর লিখুন</string>
+
+    <string name="ques1" >1.&#160; &#160;আপনার প্রথম স্কুল?</string>
+    <string name="ques2" >2.&#160; &#160;আপনার জুতো আকার?</string>
+    <string name="ques3" >3.&#160; &#160;আপনার প্রিয় খেলা?</string>
+    <string name="free_mem">Free Memory</string>
+    <string name="usb_message">Enabling USB debugging is not recommended unless you use your device for software development purposes. Tap Open Settings and disable USB debugging to protect your device</string>
+
+
+</resources>

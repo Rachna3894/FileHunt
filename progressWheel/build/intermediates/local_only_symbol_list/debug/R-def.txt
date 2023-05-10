@@ -1,0 +1,41 @@
+R_DEF: Internal format may change without notice
+local
+attr? barColor
+attr? barLength
+attr? barWidth
+attr? circleColor
+attr? contourColor
+attr? contourSize
+attr? delayMillis
+attr? radius
+attr? rimColor
+attr? rimWidth
+attr? spinSpeed
+attr? text
+attr? textColor
+attr? textSize
+drawable card_background
+drawable header
+drawable ic_launcher
+drawable icon
+drawable login_gradient
+drawable login_gradient_flip
+drawable logo
+drawable usb_icon
+id RelativeLayout01
+id btn_increment
+id btn_spin
+id iv_login_header_image
+id progressBar
+id progressBarFour
+id progressBarThree
+id progressBarTwo
+id progressImage
+id rl_login_header
+id tv_progressText
+id v_login_gradient
+id vf_login_flipper
+layout main
+layout progress_spinner
+layout progress_wheel_activity
+styleable ProgressWheel text textColor textSize barColor rimColor rimWidth spinSpeed delayMillis circleColor radius barWidth barLength contourColor contourSize

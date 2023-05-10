@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.todddavies.components.progressbar"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml
+11
+12    <application
+12-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:8:5-20:19
+13        android:icon="@drawable/ic_launcher"
+13-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:10:9-45
+14        android:theme="@android:style/Theme"
+14-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:11:9-45
+15        tools:replace="android:theme" >
+15-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:9:9-38
+16        <activity
+16-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:12:9-19:20
+17            android:name="com.todddavies.components.progressbar.main"
+17-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:12:19-76
+18            android:exported="true" >
+18-->F:\Rachna\FileHunt\progressWheel\src\main\AndroidManifest.xml:13:13-36
+19
+20            <!--
+21            <intent-filter>
+22                <action android:name="android.intent.action.MAIN" />
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+25            </intent-filter>
+26            -->
+27        </activity>
+28    </application>
+29
+30</manifest>

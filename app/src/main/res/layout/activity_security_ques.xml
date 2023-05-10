@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckimg"
+    android:scrollbars="vertical"
+    >
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="visible">-->
+
+        <LinearLayout
+            android:id="@+id/setPassQuesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:weightSum="100"
+                android:visibility="visible"
+                android:layout_marginTop="@dimen/dp10"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/app_logo_lock_pass">
+                </ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question1Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ques1"
+                        android:textSize="@dimen/sp18"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        >
+                    </TextView>
+
+                   <EditText
+                        android:id="@+id/question1Edit"
+                        android:layout_height="@dimen/dp40"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp5"
+                        android:layout_marginLeft="@dimen/dp45"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:inputType="text"
+                        android:hint="@string/answer_hint"
+                        android:textColorHint="@color/gradation_05_light"
+                        android:background="@drawable/corneredlayout"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:padding="@dimen/dp5"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/sp16"
+                        android:imeOptions="actionNext"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question2Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ques2"
+                        android:textSize="@dimen/sp18"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/question2Edit"
+                        android:layout_height="@dimen/dp40"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp5"
+                        android:layout_marginLeft="@dimen/dp45"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:inputType="text"
+                        android:hint="@string/answer_hint"
+                        android:textColorHint="@color/gradation_05_light"
+                        android:background="@drawable/corneredlayout"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:padding="@dimen/dp5"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/sp15"
+                        android:imeOptions="actionNext"
+                        >
+                    </EditText>
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question3Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ques3"
+                        android:textSize="@dimen/sp18"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textColor="@color/black"
+                        android:textStyle="normal">
+                    </TextView>
+
+
+                    <EditText
+                        android:id="@+id/question3Edit"
+                        android:layout_height="@dimen/dp40"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp5"
+                        android:layout_marginLeft="@dimen/dp45"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:inputType="text"
+                        android:hint="@string/answer_hint"
+                        android:textColorHint="@color/gradation_05_light"
+                        android:background="@drawable/corneredlayout"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:padding="@dimen/dp5"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/sp15"
+                        android:imeOptions="actionDone"
+                        >
+                    </EditText>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/save_ques_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:textColor="@color/white"
+                    android:text="@string/ques_save"
+                    android:padding="@dimen/dp4"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp18"
+                    android:textAllCaps="false"
+                    android:background="@drawable/buttonshape"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questionNoteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp3"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginRight="@dimen/dp20"
+                android:textSize="@dimen/sp11"
+                android:text="* These Security Questions needed in case you forgot your password."></TextView>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:id="@+id/forgotPassQuesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:weightSum="100"
+                android:visibility="visible"
+                android:layout_marginTop="@dimen/dp30"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp100"
+                    android:src="@drawable/app_logo_lock_pass">
+                </ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/forgotQuestion1Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1).   Your first school ?"
+                        android:textSize="@dimen/sp15"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        >
+                    </TextView>
+
+
+
+                    <EditText
+                        android:id="@+id/forgotQuestion1Edit"
+                        android:layout_height="@dimen/dp30"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:layout_marginLeft="@dimen/dp45"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:inputType="textAutoComplete"
+                        android:hint="@string/answer_hint"
+                        android:textColorHint="@color/gradation_05_light"
+                        android:background="@drawable/corneredlayout"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:padding="@dimen/dp5"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/sp15"
+                        android:imeOptions="actionNext"
+                        />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/forgotQuestion2Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2).   Your shoes size ?"
+                        android:textSize="@dimen/sp15"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/forgotQuestion2Edit"
+                        android:layout_height="@dimen/dp30"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:layout_marginLeft="@dimen/dp45"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:inputType="textAutoComplete"
+                        android:hint="@string/answer_hint"
+                        android:textColorHint="@color/gradation_05_light"
+                        android:background="@drawable/corneredlayout"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:padding="@dimen/dp5"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/sp15"
+                        android:imeOptions="actionNext"
+                        >
+                    </EditText>
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/forgotQuestion3Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3).   Your Favourite Sport ?"
+                        android:textSize="@dimen/sp15"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:textColor="@color/black"
+                        android:textStyle="normal">
+                    </TextView>
+
+
+                    <EditText
+                        android:id="@+id/forgotQuestion3Edit"
+                        android:layout_height="@dimen/dp30"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:layout_marginLeft="@dimen/dp45"
+                        android:layout_marginRight="@dimen/dp40"
+                        android:inputType="textAutoComplete"
+                        android:hint="@string/answer_hint"
+                        android:textColorHint="@color/gradation_05_light"
+                        android:background="@drawable/corneredlayout"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:padding="@dimen/dp5"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/sp15"
+                        android:imeOptions="actionDone"
+                        >
+                    </EditText>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/save_forgotQues_button"
+                    android:layout_height="@dimen/dp40"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:layout_marginTop="@dimen/dp50"
+                    android:textColor="@color/white"
+                    android:text="@string/save"
+                    android:padding="@dimen/dp5"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp20"
+                    android:textAllCaps="false"
+                    android:background="@drawable/buttonshape"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/forgotQuestionNoteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp30"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_marginRight="@dimen/dp15"
+                android:text="* These Security Questions needed in case you forgot your password."></TextView>
+        </LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</ScrollView>

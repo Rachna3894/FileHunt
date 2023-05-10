@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   android:background="@drawable/bckimg" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_marginTop="@dimen/dp2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content">
+
+    <RelativeLayout
+
+        android:padding="@dimen/dp10"
+        android:id="@+id/app1Layout"
+        android:background="@drawable/custom_ripple"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/circleimage"
+            android:id="@+id/appIcon"
+            android:src="@drawable/suggest_lockscreen"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtApp1"
+            android:layout_toRightOf="@+id/appIcon"
+            android:text="ScreenLock"
+            android:textSize="@dimen/sp18"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <View
+
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        style="@style/Divider" ></View>
+
+
+    <RelativeLayout
+        android:padding="@dimen/dp10"
+        android:id="@+id/app2Layout"
+        android:background="@drawable/custom_ripple"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/circleimage"
+            android:id="@+id/appIcon2"
+            android:src="@drawable/suggestappvdo"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtApp2"
+            android:layout_toRightOf="@+id/appIcon2"
+            android:text="VideoPlayer"
+            android:textSize="@dimen/sp18"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        style="@style/Divider" ></View>
+
+    <RelativeLayout
+        android:padding="@dimen/dp10"
+        android:id="@+id/app3Layout"
+        android:background="@drawable/custom_ripple"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/circleimage"
+            android:id="@+id/appIcon3"
+            android:src="@drawable/suggested_khulasa_lite"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtApp3"
+            android:layout_toRightOf="@+id/appIcon3"
+            android:text="KhulasaLite"
+            android:textSize="@dimen/sp18"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        style="@style/Divider" ></View>
+
+
+    <RelativeLayout
+        android:padding="@dimen/dp10"
+        android:id="@+id/app4Layout"
+        android:background="@drawable/custom_ripple"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/circleimage"
+            android:id="@+id/appIcon4"
+            android:src="@drawable/suggest_selfiepro"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtApp4"
+            android:layout_toRightOf="@+id/appIcon4"
+            android:text="SelfiePro"
+            android:textSize="@dimen/sp18"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        style="@style/Divider" ></View>
+
+
+    <RelativeLayout
+        android:padding="@dimen/dp10"
+        android:id="@+id/app5Layout"
+        android:background="@drawable/custom_ripple"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/circleimage"
+            android:id="@+id/appIcon5"
+            android:src="@drawable/suggest_ninja_fox"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtApp5"
+            android:layout_toRightOf="@+id/appIcon5"
+            android:text="NinjaFox"
+            android:textSize="@dimen/sp18"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        style="@style/Divider" ></View>
+
+
+    <RelativeLayout
+    android:padding="@dimen/dp10"
+    android:id="@+id/app6Layout"
+    android:background="@drawable/custom_ripple"
+    android:gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/circleimage"
+        android:id="@+id/appIcon6"
+        android:src="@drawable/suggest_scanner"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/txtApp6"
+        android:layout_toRightOf="@+id/appIcon6"
+        android:text="Smart Scanner"
+        android:textSize="@dimen/sp18"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        style="@style/Divider" ></View>
+
+
+    <RelativeLayout
+        android:padding="@dimen/dp10"
+        android:id="@+id/app7Layout"
+        android:background="@drawable/custom_ripple"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/circleimage"
+            android:id="@+id/appIcon7"
+            android:src="@drawable/suggest_khulasanews"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtApp7"
+            android:layout_toRightOf="@+id/appIcon7"
+            android:text="Khulasa News"
+            android:textSize="@dimen/sp18"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "305914834031",
+    "firebase_url": "https://filehunt-jmm.firebaseio.com",
+    "project_id": "filehunt-jmm",
+    "storage_bucket": "filehunt-jmm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305914834031:android:8516af6dfb0ad738",
+        "android_client_info": {
+          "package_name": "com.mojodigi.filehunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305914834031-poofi3te0u21el3pb7tvr9lo866an5j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mojodigi.filehunt",
+            "certificate_hash": "dc43b134ec26ba402ba388b663448a02601dcbdf"
+          }
+        },
+        {
+          "client_id": "305914834031-f2jrslncialqn43mto425jk3afc86scu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw-43GYnkFvY-vw1uZQpDfgJohj97hUec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305914834031-f2jrslncialqn43mto425jk3afc86scu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305914834031:android:38a22ee7c6b761b5c7b19a",
+        "android_client_info": {
+          "package_name": "com.mojodigitech.filehunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305914834031-f2jrslncialqn43mto425jk3afc86scu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw-43GYnkFvY-vw1uZQpDfgJohj97hUec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305914834031-f2jrslncialqn43mto425jk3afc86scu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,314 @@
+<resources>
+
+    <!-- chinease -->
+    <string name="app_name">文件搜索</string>
+    <string name="app_version">应用版本</string>
+
+    <string name="internalstorage">内部存储器</string>
+    <string name="externalstorage">外部存储</string>
+    <string name="avlbl">可得到</string>
+
+    <string name="subscibe">訂閱</string>
+    <string name="limit_reminder">您已達到隱藏文件的限制。要進一步使用，請訂閱。</string>
+
+
+    <!--taken from filemangaer app-->
+
+    <!-- navigation strings-->
+    <string name="nav_settings">设置</string>
+    <string name="nav_share">分享</string>
+    <string name="nav_privacy_policy">隐私政策</string>
+
+
+    <string name="navigation_drawer_open">打開導航抽屜</string>
+    <string name="navigation_drawer_close">
+關閉導航抽屜</string>
+    <string name="nav_header_title">FileHunt</string>
+    <string name="nav_header_subtitle">jmm@android.com</string>
+    <string name="nav_header_desc">導航標題</string>
+    <string name="cannotload">無法加載網站</string>
+    <string name="actions_rename">
+改名</string>
+
+    <string name="menu_item_delete">刪除</string>
+    <string name="menu_item_move">移動</string>
+    <string name="action_search">搜索</string>
+    <string name="action_sort">分類</string>
+    <string name="action_hide">隱藏
+</string>
+    <string name="delete_file_msgs">删除文件</string>
+    <string name="action_details">細節
+</string>
+    <string name="action_copy">複製</string>
+    <string name="action_share">分享</string>
+    <!--taken from filemangaer app-->
+
+
+
+    <string name="loading_msg">載入中...</string>
+    <string name="msg_set_wall">設置壁紙</string>
+    <string name="copying_msg">仿形...</string>
+    <string name="foldercreatedmsg">
+文件夾創建成功</string>
+
+    <string name="menu_selectAll">全選</string>
+    <string name="menu_unselectAll">
+全部取消選擇</string>
+    <string name="menu_paste">
+糊</string>
+
+    <string name="cat_Images">
+圖片</string>
+    <string name="cat_Videos">
+視頻</string>
+    <string name="cat_Audio">音頻</string>
+    <string name="cat_Documents">文獻</string>
+    <string name="cat_Download">
+下載</string>
+    <string name="cat_Animation">動畫</string>
+    <string name="cat_Recent">
+最近</string>
+    <string name="cat_Apk">
+應用</string>
+    <string name="cat_zip_title">壓縮</string>
+    <string name="cat_hidden">
+更衣室</string>
+
+    <string name="hdnfiles">
+隱藏文件</string>
+
+    <string name="title_settings">設置</string>
+    <string name="password_hint">寫密碼</string>
+    <string name="cpassword_hint">確認密碼</string>
+    <string name="createfolder">創建</string>
+    <string name="save">
+保存</string>
+    <string name="cancel">取消</string>
+    <string name="create_folder">
+創建文件夾</string>
+    <string name="encrypt_heading">鎖定的文件</string>
+    <string name="password">寫密碼</string>
+    <string name="setpassword">
+設置密碼</string>
+
+    <string name="filenotfound">無法將文件隱藏起來</string>
+    <string name="directorynotfound">找不到該目錄"</string>
+    <string name="decmsg">準備文件...</string>
+    <string name="encmsg">隱藏文件...</string>
+    <string name="unlocktxt">開鎖</string>
+    <string name="rename_success">
+文件已成功重命名</string>
+    <string name="rename_failed">重命名失敗</string>
+    <string name="emty_error">不能為空</string>
+    <string name="foldernamerequire">需要文件夾名稱</string>
+    <string name="namerequired">名稱是必需的</string>
+    <string name="error">錯誤</string>
+
+    <string name="delfile">文件</string>
+    <string name="delfiles">檔</string>
+    <string name="delmsg1">項目已刪除</string>
+    <string name="delmsg2">項目已刪除</string>
+
+    <string name="needsaccesssummary">
+請選擇根目錄 \t</string>
+    <string name="needsaccesssummary1">\t 授予寫操作訪問權限 </string>
+    <string name="permission_txt">
+需要讀/寫權限</string>
+    <string name="open">打開</string>
+    <string name="deleting_file">刪除文件 </string>
+    <string name="bigimg">圖像尺寸太大</string>
+
+
+
+    <string name="nospace">
+沒有空位.</string>
+    <string name="load_error">無法加載文件</string>
+    <string name="play_error">不能播放文件</string>
+    <string name="passwordnotmatch">密碼不匹配</string>
+    <string name="Incrct_pswd">密碼錯誤</string>
+    <string name="type_password">
+輸入一個密碼</string>
+    <string name="nofile">沒有要共享的文件</string>
+    <string name="filenotcreated">文件未創建</string>
+    <string name="password_create_error">無法創建密碼</string>
+    <string name="pressagain">請再按一次退出.</string>
+    <string name="folder_exist">文件夾已存在</string>
+    <string name="filedetetd">文件已刪除</string>
+    <string name="app_not_found">
+應用程序未找到 </string>
+
+
+
+    <string name="unable_get_permission">
+無法獲得權限</string>
+    <string name="permission_required">需要權限</string>
+    <string name="storage_permission"> 應用程序需要stoarge權限.</string>
+    <string name="grant_storage">轉到權限以授予存儲訪問權限</string>
+
+    <string name="sortName">名稱</string>
+    <string name="lastModified">上次修改（日期）</string>
+    <string name="sortSize">尺寸</string>
+    <string name="type">按類別分組</string>
+
+    <string name="sortby">排序方式</string>
+    <string name="ascending">上升</string>
+    <string name="descending">降序</string>
+    <string name="done">完成</string>
+
+
+    <string name="file_exists">文件已存在。請嘗試新名稱</string>
+<string name="total">總</string>
+    <string name="last_modified">最後修改: </string>
+    <string name="strgdevice">存儲設備</string>
+
+    <string name="showfiles">顯示隱藏文件</string>
+    <string name="txtsize">字體大小</string>
+    <string name="txtsuggestedApps">推薦的應用</string>
+    <string name="txtAbout">關於</string>
+    <string name="dispsmallfile">顯示小於30 kb的圖像</string>
+    <string name="hidestorage">隱藏設備存儲空間</string>
+    <string name="error_folder_create">創建文件夾時出錯</string>
+    <string name="wallpaper_success">
+壁紙設置成功.</string>
+    <string name="wallpaper_error">
+無法設置壁紙.</string>
+    <string name="set_wallpaper">
+設置壁紙</string>
+    <string name="copy_here">複製到這裡</string>
+
+    <string name="num_files">文件數量</string>
+    <string name="ttl_size">總大小</string>
+    <string name="cls">關</string>
+
+    <string name="dtls">細節</string>
+    <string name="fname">
+名稱</string>
+    <string name="lcn">地點</string>
+    <string name="sz">尺寸</string>
+    <string name="orntn">
+取向</string>
+    <string name="rsltn">解析度</string>
+    <string name="dt">日期</string>
+
+
+    <string name="grant">發放</string>
+    <string name="need_permission">需要權限</string>
+    <string name="storage_needed">
+需要訪問您的存儲</string>
+
+
+    <string name="need_perm" >需要許可</string>
+    <string name="custom_ui">自定義UI禁用所需的某些標準權限</string>
+    <string name="need_enable">你需要啟用它們</string>
+    <string name="towork">上班.</string>
+
+
+
+    <!-- demo add ids -->
+    <!--/////
+<string name="banner_add_id">ca-app-pub-3940256099942544/6300978111</string>
+<string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+<string name="ad_unit_id_reward">ca-app-pub-3940256099942544/5224354917</string>
+-->
+    <!-- demo add ids -->
+
+
+    <!--actual add ids for lvvoMobile -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~7136674365</string>
+
+<string name="banner_add_id">ca-app-pub-5603925957932903/9547215284</string>
+<string name="ad_unit_id">ca-app-pub-5603925957932903/4809893925</string>
+
+<string name="ad_unit_id_reward">ca-app-pub-5603925957932903/5622774574</string>
+-->
+    <!--actualapp id -->
+
+
+    <!--actual add id for FileHunt blockedAccount -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~3576315291</string>
+<string name="banner_add_id">ca-app-pub-5603925957932903/8134685014</string>
+<string name="ad_unit_id">ca-app-pub-5603925957932903/9183865192</string>
+<string name="ad_unit_id_reward">ca-app-pub-5603925957932903/5622774574</string>
+-->
+    <!--actual add id for FileHunt blockedAccount -->
+
+
+    <!--actual add id for FileHunt runningAccount -->
+
+    <string name="admob_app_id">ca-app-pub-7769757158085259~2218192747</string>
+    <string name="banner_add_id">ca-app-pub-7769757158085259/4065874309</string>
+    <string name="ad_unit_id">ca-app-pub-7769757158085259/5753526349</string>
+    <string name="ad_unit_id_reward">ca-app-pub-7769757158085259/5906156319</string>
+
+    <!--actual add id for FileHunt runningAccount -->
+
+
+
+    <string name="txtUpdateQuestion">
+更新安全性問題</string>
+    <string name="answer_hint">輸入您的答案</string>
+    <string name="title_activity_questions">
+登入</string>
+    <string name="prompt_email">電子郵件</string>
+    <string name="prompt_password">
+密碼</string>
+    <string name="action_sign_in">登錄或註冊</string>
+    <string name="action_sign_in_short">登入</string>
+
+    <string name="invalid_username">
+用戶名無效</string>
+    <string name="invalid_password">密碼必須大於5個字符</string>
+    <string name="login_failed">登錄失敗</string>
+
+    <string name="do_junk_clean">清理</string>
+    <string name="boost_phone">增強電話</string>
+    <string name="duplicate_images">
+影像重複</string>
+    <string name="boosting">提升您的設備</string>
+    <string name="avlbl_ram">可用的公羊</string>
+    <string name="boost_device">升壓裝置</string>
+
+    <string name="ok">
+好</string>
+    <string name="calculation">正在計算...</string>
+    <string name="cleanup">已清洗</string>
+    <string name="found_together">
+一起發現：</string>
+    <string name="scanning">正在掃描：</string>
+    <string name="cleardata">清除資料</string>
+    <string name="process_clean">
+流程清理</string>
+    <string name="apk_clean">無用的安裝包</string>
+    <string name="tmp_clean">臨時文件</string>
+    <string name="log_clean">日誌文件</string>
+    <string name="cache_clean">緩存垃圾</string>
+    <string name="system_cache">系統緩存</string>
+
+    <string name="title_activity_junk_clean">推薦清潔</string>
+
+    <string name="security_ques_title">安全問題</string>
+    <string name="forgot_security_ques_title">安全問題</string>
+    <string name="set_security_ques_title">
+設置安全問題</string>
+    <string name="update_security_ques_title">更新答案</string>
+
+    <string name="ques_save">保存</string>
+    <string name="forgot_pass">
+忘記密碼</string>
+
+    <string name="security_ques_hint">輸入答案</string>
+    <string name="set_security_ques_hint">
+設定答案</string>
+    <string name="update_security_ques_hint">更新您的答案</string>
+    <string name="forgot_security_ques_hint">輸入答案</string>
+
+
+    <string name="ques1" >1.&#160; &#160;你的第一所學校？</string>
+    <string name="ques2" >2.&#160; &#160;您的鞋子尺碼？</string>
+    <string name="ques3" >3.&#160; &#160;您最喜歡的運動？</string>
+    <string name="free_mem">Free Memory</string>
+
+
+</resources>

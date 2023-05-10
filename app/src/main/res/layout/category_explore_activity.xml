@@ -1,0 +1,74 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bckimg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+       android:id="@+id/blank_indicatorm"
+        android:visibility="gone"
+        android:src="@drawable/nofilefound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoryExploreRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/addhoster"
+        android:layout_marginTop="@dimen/dp1"
+        android:layout_marginRight="@dimen/dp1"
+        android:layout_marginLeft="@dimen/dp1"
+        />
+
+
+
+
+
+ <!--   <RelativeLayout
+        android:id="@+id/addhoster"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_add_id"></com.google.android.gms.ads.AdView>
+
+        &lt;!&ndash;in this  dynamically added  google AdView will be displayed&ndash;&gt;
+
+        <RelativeLayout
+
+            android:id="@+id/adMobView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RelativeLayout>
+       &lt;!&ndash; <RelativeLayout
+            android:id="@+id/smaaToAddContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RelativeLayout>&ndash;&gt;
+
+        <LinearLayout
+            android:background="@drawable/fb_adds_layout_border_grey"
+            android:layout_margin="@dimen/dp4"
+            android:padding="@dimen/dp4"
+            android:visibility="gone"
+            android:id="@+id/banner_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            />
+
+    </RelativeLayout>-->
+
+
+
+
+</RelativeLayout>

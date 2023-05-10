@@ -1,0 +1,320 @@
+<resources>
+
+    <!-- italian -->
+    <string name="app_name">FileHunt</string>
+    <string name="app_version">Versione dell\'app</string>
+
+    <string name="internalstorage">Archiviazione interna</string>
+    <string name="externalstorage">Archiviazione esterna</string>
+    <string name="avlbl">disposizione</string>
+
+    <string name="subscibe">
+sottoscrivi</string>
+    <string name="limit_reminder">
+hai raggiunto il limite di nascondere i file. per un ulteriore utilizzo iscriviti.</string>
+
+    <!--taken from filemangaer app-->
+
+    <!-- navigation strings-->
+    <string name="nav_settings">impostazioni</string>
+    <string name="nav_share">Condividere</string>
+    <string name="nav_privacy_policy">Politica sulla riservatezza</string>
+
+
+    <string name="navigation_drawer_open">Apri il cassetto di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi il cassetto di navigazione</string>
+    <string name="nav_header_title">FileHunt</string>
+    <string name="nav_header_subtitle">jmm@android.com</string>
+    <string name="nav_header_desc">Intestazione di navigazione</string>
+    <string name="cannotload">non è possibile caricare il sito</string>
+    <string name="actions_rename">Rinominare</string>
+
+    <string name="menu_item_delete">Elimina</string>
+    <string name="menu_item_move">
+Mossa</string>
+    <string name="action_search">Ricerca</string>
+    <string name="action_sort">
+
+Ordinare</string>
+
+    <string name="action_hide">Nascondere
+</string>
+    <string name="delete_file_msgs">Cancella il file</string>
+    <string name="action_details">Dettagli
+</string>
+    <string name="action_copy">copia
+</string>
+    <string name="action_share">Condividere</string>
+    <!--taken from filemangaer app-->
+
+
+    <string name="loading_msg">Caricamento in corso...</string>
+    <string name="msg_set_wall">Impostazione dello sfondo</string>
+    <string name="copying_msg">copiatura...</string>
+    <string name="foldercreatedmsg">cartella creata con successo</string>
+
+    <string name="menu_selectAll">SELEZIONA TUTTO</string>
+    <string name="menu_unselectAll">
+DESELEZIONA TUTTO</string>
+    <string name="menu_paste">Incolla</string>
+
+    <string name="cat_Images">
+Immagine</string>
+    <string name="cat_Videos">Video</string>
+    <string name="cat_Audio">Audio</string>
+    <string name="cat_Documents">
+Documento</string>
+    <string name="cat_Download">Scaricare</string>
+    <string name="cat_Animation">Animazione</string>
+    <string name="cat_Recent">Recente</string>
+    <string name="cat_Apk">Applicazioni</string>
+    <string name="cat_zip_title">Cerniera lampo</string>
+    <string name="cat_hidden">Armadietto</string>
+
+    <string name="hdnfiles">
+File nascosti</string>
+
+    <string name="copy_here">Copia qui</string>
+
+
+    <string name="title_settings">impostazioni</string>
+    <string name="password_hint">Scrivi password</string>
+    <string name="cpassword_hint">Conferma password</string>
+    <string name="createfolder">CREARE</string>
+    <string name="save">SALVARE</string>
+    <string name="cancel">Annulla</string>
+    <string name="create_folder">Creare una cartella</string>
+    <string name="encrypt_heading">File bloccati</string>
+    <string name="password">scrivi password</string>
+    <string name="setpassword">Impostare la password</string>
+
+    <string name="filenotfound">
+Cound non ottiene il file da nascondere</string>
+    <string name="directorynotfound">Impossibile trovare la directory</string>
+    <string name="decmsg">
+Preparazione dei file...</string>
+    <string name="encmsg">Nascondere i file...</string>
+    <string name="unlocktxt">Sbloccare</string>
+    <string name="rename_success">File rinominato correttamente</string>
+    <string name="rename_failed">Rinomina fallita</string>
+    <string name="emty_error">Non può essere vuoto</string>
+    <string name="foldernamerequire">Nome della cartella richiesto</string>
+    <string name="namerequired">Il nome è obbligatorio</string>
+    <string name="error">Errore</string>
+
+    <string name="delfile">file</string>
+    <string name="delfiles">files</string>
+    <string name="delmsg1">
+Articoli cancellati</string>
+    <string name="delmsg2">Articolo eliminato</string>
+
+    <string name="needsaccesssummary">Si prega di scegliere la directory principale di\t</string>
+    <string name="needsaccesssummary1">\t garantire l\'accesso in scrittura per operare </string>
+
+
+    <string name="permission_txt">È richiesto il permesso di lettura / scrittura</string>
+    <string name="open">APERTO</string>
+    <string name="deleting_file">Eliminazione di file </string>
+    <string name="bigimg">Dimensioni dell\'immagine troppo grandi</string>
+    <string name="nospace">Nessuno spazio disponibile.</string>
+    <string name="load_error">impossibile caricare il file</string>
+    <string name="play_error">non posso riprodurre il file</string>
+    <string name="passwordnotmatch">
+La password non corrisponde</string>
+    <string name="Incrct_pswd">password errata</string>
+    <string name="type_password">digita una password</string>
+    <string name="nofile">
+Nessun file da condividere</string>
+    <string name="filenotcreated">
+file non creato</string>
+
+
+    <string name="password_create_error">non posso creare password</string>
+    <string name="pressagain">i prega di premere nuovamente per uscire.</string>
+    <string name="folder_exist">cartella esiste già</string>
+    <string name="filedetetd">file cancellato</string>
+    <string name="app_not_found">Applicazione non trovata </string>
+    <string name="unable_get_permission">Impossibile ottenere l\'autorizzazione</string>
+    <string name="permission_required">Hai bisogno di permessos</string>
+    <string name="storage_permission">l\'app ha bisogno di un permesso ingannevole.</string>
+    <string name="grant_storage">Vai a Autorizzazioni per concedere l\'accesso alla memoria</string>
+
+    <string name="sortName">Nome</string>
+    <string name="lastModified">Ultima modifica (data)</string>
+    <string name="sortSize">Taglia</string>
+    <string name="type">Raggruppa per tipo</string>
+
+    <string name="sortby">Ordina per</string>
+    <string name="ascending">Ascendente</string>
+    <string name="descending">Discendente</string>
+    <string name="done">Fatto</string>
+
+<string name="total">Totale</string>
+    <string name="last_modified">Ultima modifica: </string>
+    <string name="strgdevice">DISPOSITIVI DI MEMORIA</string>
+
+    <string name="showfiles">Mostra file nascosti</string>
+    <string name="txtsize">Dimensione del testo</string>
+    <string name="txtsuggestedApps">App consigliate</string>
+    <string name="txtAbout">Di</string>
+    <string name="dispsmallfile">Mostra immagini inferiori a 30 kb</string>
+    <string name="hidestorage">Nascondi la memoria del dispositivo</string>
+    <string name="error_folder_create">Errore durante la creazione della cartella</string>
+    <string name="wallpaper_success">Sfondo impostato con successo.</string>
+    <string name="wallpaper_error">Impossibile impostare lo sfondo.</string>
+    <string name="set_wallpaper">Imposta sfondo </string>
+
+    <string name="file_exists">
+Il file esiste già. Prova il nuovo nome</string>
+    <string name="num_files">
+Numero di file</string>
+    <string name="ttl_size">
+Dimensione totale</string>
+    <string name="cls">VICINO</string>
+
+    <string name="dtls">Dettagli</string>
+    <string name="fname">Nome</string>
+    <string name="lcn">Posizione</string>
+    <string name="sz">Taglia</string>
+    <string name="orntn">Orientamento</string>
+    <string name="rsltn">
+Risoluzione</string>
+    <string name="dt">Data
+</string>
+
+
+    <string name="grant">concessione</string>
+    <string name="need_permission">Hai bisogno di permessi</string>
+    <string name="storage_needed">
+Ha bisogno di accedere al tuo spazio di archiviazione.</string>
+
+
+
+    <!--  junk clean string-->
+    <!--will  translate these string after lunch-->
+    <string name="ok" >fatto</string>
+    <string name="calculation" >calcolatore...</string>
+    <string name="cleanup" >Puliti</string>
+    <string name="found_together" >Trovato insieme : </string>
+    <string name="scanning" >
+lettura :</string>
+    <string name="cleardata" >
+Eliminare i dati</string>
+    <string name="process_clean" >Processo di pulizia</string>
+    <string name="apk_clean" >Pacchetto di installazione inutile</string>
+    <string name="tmp_clean" >
+File temporanei</string>
+    <string name="log_clean" >
+File di registro</string>
+    <string name="cache_clean" >
+Cache spazzatura</string>
+    <string name="system_cache" >Cache di sistema</string>
+    <string name="title_activity_junk_clean" >Pulizia raccomandata</string>
+
+
+
+
+
+    <string name="do_junk_clean" >Pulire</string>
+    <string name="boost_phone" >Aumenta il numero di telefono</string>
+    <string name="duplicate_images" >
+Immagini duplicate</string>
+    <string name="boosting" >Potenzia il tuo dispositivo</string>
+    <string name="avlbl_ram" >Ram disponibile</string>
+    <string name="boost_device" >Aumenta il dispositivo</string>
+
+
+    <!--  junk clean string-->
+
+
+    <string name="need_perm" >
+ha bisogno di permesso</string>
+    <string name="custom_ui">
+l\'interfaccia utente personalizzata disabilita alcune autorizzazioni standard richieste da</string>
+    <string name="need_enable">
+è necessario abilitarli per</string>
+    <string name="towork">lavorare.</string>
+
+
+    <!-- demo add ids -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~3576315291</string>
+<string name="banner_add_id">ca-app-pub-3940256099942544/6300978111</string>
+<string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+<string name="ad_unit_id_reward">ca-app-pub-3940256099942544/5224354917</string>
+-->
+    <!-- demo add ids -->
+
+
+    <!--actual add ids for lvvoMobile -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~7136674365</string>
+
+<string name="banner_add_id">ca-app-pub-5603925957932903/9547215284</string>
+<string name="ad_unit_id">ca-app-pub-5603925957932903/4809893925</string>
+
+<string name="ad_unit_id_reward">ca-app-pub-5603925957932903/5622774574</string>
+-->
+    <!--actualapp id -->
+
+
+    <!--actual add id for FileHunt blockedAccount -->
+    <!--
+<string name="admob_app_id">ca-app-pub-5603925957932903~3576315291</string>
+<string name="banner_add_id">ca-app-pub-5603925957932903/8134685014</string>
+<string name="ad_unit_id">ca-app-pub-5603925957932903/9183865192</string>
+<string name="ad_unit_id_reward">ca-app-pub-5603925957932903/5622774574</string>
+-->
+    <!--actual add id for FileHunt blockedAccount -->
+
+
+    <!--actual add id for FileHunt runningAccount -->
+
+    <string name="admob_app_id">ca-app-pub-7769757158085259~2218192747</string>
+    <string name="banner_add_id">ca-app-pub-7769757158085259/4065874309</string>
+    <string name="ad_unit_id">ca-app-pub-7769757158085259/5753526349</string>
+    <string name="ad_unit_id_reward">ca-app-pub-7769757158085259/5906156319</string>
+
+    <!--actual add id for FileHunt runningAccount -->
+
+
+        <string name="txtUpdateQuestion">
+Aggiorna domande di sicurezza</string>
+    <string name="answer_hint">Inserisci la tua risposta</string>
+    <string name="title_activity_questions">registrati</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Parola d\'ordine</string>
+    <string name="action_sign_in">Accedi o registrati</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="invalid_username">Nome utente non valido</string>
+    <string name="invalid_password">La password deve contenere> 5 caratteri</string>
+    <string name="login_failed">Accesso fallito</string>
+
+
+
+    <string name="security_ques_title">
+Domande di sicurezza</string>
+    <string name="forgot_security_ques_title">
+Domande di sicurezza</string>
+    <string name="set_security_ques_title">Imposta domande di sicurezza</string>
+    <string name="update_security_ques_title">Aggiorna risposte</string>
+
+    <string name="ques_save">Salvare</string>
+    <string name="forgot_pass">Ha dimenticato la password ?</string>
+
+    <string name="security_ques_hint">
+Inserisci le tue risposte</string>
+    <string name="set_security_ques_hint">
+Imposta le tue risposte</string>
+    <string name="update_security_ques_hint">Aggiorna le tue risposte</string>
+    <string name="forgot_security_ques_hint">Inserisci le tue risposte</string>
+
+
+    <string name="ques1" >1.&#160; &#160;La tua prima scuola?</string>
+    <string name="ques2" >2.&#160; &#160;La tua taglia di scarpe?</string>
+    <string name="ques3" >3.&#160; &#160;Il tuo sport preferito?</string>
+    <string name="free_mem">Free Memory</string>
+
+
+</resources>
